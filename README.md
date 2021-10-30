@@ -27,4 +27,4 @@ Pull requestler kabul edilir. Büyük değişiklikler için lütfen önce neyi d
 
 ## Foto
 
-![](static\kodluyoruz_git.png)
+![](https://github.com/ttoygar/kodluyoruzilkrepo/blob/603889d808b1fc4261907a7f2a4de742eb2cb473/static/kodluyoruz_git.png)
