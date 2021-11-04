@@ -1,0 +1,44 @@
+body {
+    padding: 5%;
+}
+
+header, footer {
+    text-align: center;
+}
+
+footer {
+    font-size: small;
+}
+
+section {
+    text-align: center;
+}
+
+section#searchbar {
+    background-color: #EEEEEE;
+}
+
+
+section#bottom {
+    font-size: medium;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    padding: auto;
+}
+
+
+
+.col-container {
+    border-collapse: separate;
+    border-spacing: 2px;
+    display: table;
+    width: 100%;
+}
+
+.col {
+    display: table-cell;
+    vertical-align: middle;
+}
