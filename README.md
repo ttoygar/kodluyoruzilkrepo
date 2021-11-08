@@ -2,6 +2,8 @@
 
 Bu repo [Kodluyoruz](www.kodluyoruz.org) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
 
+patika.dev eğitimleri altında takip eden çalışmalar bu repo altına kendi klasörleri içine kaydedilmekte ve repo eğitimler süresince güncellenmektedir.
+
 ## Installation
 Öncelikle projeyi clonelayın. (Buraya sizin reponuzdan aldığınız link gelecek)
 
