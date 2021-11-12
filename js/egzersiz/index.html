@@ -11,6 +11,78 @@
     <h1>js Egzersiz</h1>
     <h3 id="info"></h3>
 
+    <!--
+<div class="container">  
+  <div><p id="text">SUBMIT FORM </p> </div>
+    <form action="/action_page.php" class="inputText">
+      <label for="fname" id="l1">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John" > <br>
+      <label for="lname" id="l2">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe" id="label2"><br><br>
+    </form>
+    <button type="button" id="button" >Clicked me </button>
+    <form action="#" id="selectColor">
+      <label for="color">Choose a color</label>
+        <select name="colors" id="select">
+        <option value="red">RED</option>
+        <option value="blue">BLUE</option>
+        <option value="purple">PURPLE</option>
+        <option value="orange">ORANGE</option>
+        <option value="pink">PINK</option>
+      </select>
+    <br><br>
+    </form>
+  </div>
+</div>
+
+<form method="GET"><input type="text" name="yas" placeholder="Yaşınızı giriniz"/>
+  <button type="submit">Gönder</button>
+</form>
+<form method="POST">
+  <input type="email" name="email" placeholder="email"/>
+  <button type="submit">Gönder</button>
+</form>
+-->
+
+
+<!--
+<form onsubmit="handleSubmit(e)" method="POST">
+  <input type="text"name="username"placeholder="Kullanıcı adınızı giriniz"onchange="handleChange(event)"/>
+  <input type="password"name="password"placeholder="Şifrenizi giriniz."onchange="handleChange(event)"/>
+  <button type="submit">Giriş</button>
+</form>
+
+<script>var username;
+  var password;
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log("username:" + username + "-" + "password:" + password);
+  }
+  function handleChange(e) {
+    if (e.target.name === "username") {
+      username = e.target.value;
+    }
+    if (e.target.name === "password") {
+      password = e.target.value;
+    }
+  }
+</script>
+-->
+
+
+<!--BUTON İLE İNPUT DEĞERİNİ ALT SATIRA AL-->
+<!--
+<input type="text" name="egzers" id="egz" placeholder="dene"><button onclick="fonk()">Tıkla</button>
+<p id="bura"></p>
+<script>
+  function fonk() {
+    let deger = document.getElementById("egz").value;
+    document.getElementById("bura").innerHTML = deger;
+  }
+</script>
+-->
+
+<!---->
 
 
     <script type="text/javascript" src="egzersiz.js"></script>
