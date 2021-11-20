@@ -1,3 +1,9 @@
+// YAPILACAKLAR
+// 1 Yeni eleman eklenince input alanının temizlenmesi
+// 2 localStorage kullanılarak kayıt ve geri çağırma
+// 3 Kodun temizlenmesi & refactor
+
+
 
 function oldElements () {
     //liste elemanlarının sonuna X eklendi
