@@ -152,3 +152,48 @@ let dizi = [2,3,4];
 console.log(dizi.reduce((a,b)=>a*b,1))
 */
 
+/*
+var person = {
+	name: 'Rumeysa',
+	surname: 'Turgut',
+	age: 23,
+	introduce: () => {
+		return `My name is ${person.name} ${person.surname}, I'm ${person.age} yo.`;
+	},
+};
+
+var person2 = {
+	name: 'Rumeyasdasa',
+	surname: 'Tuasdasdrgut',
+	age: 23,
+	introduce: () => {
+		return `My name is ${person2.name} ${person2.surname}, I'm ${person2.age} yo.`;
+	},
+};
+
+var person3 = {
+	name: 'asdasdRumeysa',
+	surname: 'asdasdTurgut',
+	age: 23,
+	introduce: function () {
+		return `My name is ${this.name} ${this.surname}, I'm ${this.age} yo.`;
+	},
+};
+
+console.log(person.introduce())
+console.log(person2.introduce())
+console.log(person3.introduce())
+*/
+
+/*
+var birey = {
+	isim: 'Ali',
+	soyisim: 'Veli',
+	dogumYili: 1989,
+	merhabaDe: (age) => `Merhaba, ben ${birey.isim} ${birey.soyisim}, ${age} yaşındayım`,
+};
+birey.yasHesapla = function () {
+	return 2021 - this.dogumYili;
+};
+console.log(birey.merhabaDe(birey.yasHesapla()));
+*/
